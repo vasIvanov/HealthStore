@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HealthStore.Models.Users
+namespace HealthStore.Models.Contracts.Responses
 {
-    public class Employee
+    public class EmployeeResponse
     {
         public int Id { get; set; }
         public string Name { get; set; }
