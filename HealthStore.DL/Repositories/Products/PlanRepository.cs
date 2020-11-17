@@ -25,29 +25,34 @@ namespace HealthStore.DL.Repositories.Products
             await _plans.InsertOneAsync(plan);
             return plan;
         }
-        public Task Delete(int planId)
+        public async Task Delete(int planId)
         {
-            throw new NotImplementedException();
+            await _plans.DeleteOneAsync(p => p.Id == planId);
         }
 
-        public Task<IEnumerable<Plan>> GetAll()
+        public async Task<IEnumerable<Plan>> GetAll()
         {
-            throw new NotImplementedException();
+            var result = await _plans.FindAsync(p => true);
+            return result.ToEnumerable();
         }
 
-        public Task<Plan> GetById(int planId)
+        public async Task<Plan> GetById(int planId)
         {
-            throw new NotImplementedException();
+            var result = await _plans.FindAsync(p => p.Id == planId);
+            return result.FirstOrDefault();
         }
 
-        public Task<Plan> GetByName(string name)
+        public async Task<Plan> GetByName(string name)
         {
-            throw new NotImplementedException();
+            var result = await _plans.FindAsync(p => p.Name == name);
+
+            return result.FirstOrDefault();
         }
 
-        public Task<Plan> Update(Plan plan)
+        public async Task<Plan> Update(Plan plan)
         {
-            throw new NotImplementedException();
+            await _plans.ReplaceOneAsync(p => p.Id == plan.Id, plan);
+            return plan;
         }
     }
 }

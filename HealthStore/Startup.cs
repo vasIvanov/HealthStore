@@ -4,9 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using FluentValidation.AspNetCore;
+using HealthStore.BL.Interfaces.Products;
 using HealthStore.BL.Interfaces.Users;
+using HealthStore.BL.Services.Products;
 using HealthStore.BL.Services.Users;
+using HealthStore.DL.Interfaces.Products;
 using HealthStore.DL.Interfaces.Users;
+using HealthStore.DL.Repositories.Products;
 using HealthStore.DL.Repositories.Users;
 using HealthStore.Models.Common;
 using Microsoft.AspNetCore.Builder;
@@ -39,6 +43,9 @@ namespace HealthStore
 
             services.AddSingleton<IEmployeeService, EmployeeService>();
             services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
+
+            services.AddSingleton<IPlanService, PlanService>();
+            services.AddSingleton<IPlanRepository, PlanRepository>();
 
             services.AddAutoMapper(typeof(Startup));
 
