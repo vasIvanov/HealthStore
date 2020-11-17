@@ -9,6 +9,7 @@ namespace HealthStore.Validators
             RuleFor(x => x.Id).GreaterThan(0);
             RuleFor(x => x.Name).MinimumLength(3);
             RuleFor(x => x.Price).GreaterThan(0);
+            RuleFor(x => x.Exercices).NotEmpty();
         }
     }
 }
