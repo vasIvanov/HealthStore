@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rYs9L4fcdy+kO4O4N/KY4qtcFH3JknukEfz3U9TG7Cev0Ly7TWgq2xQ4gHCOROK69MnjQJOz/XANQpdems47tQ==",
+  "dgSpecHash": "tTrkhZnMXqZT4cLtP16dJtOGb7gd6LSqWjFsYsCVSW4c8+2m9s574lXZBQS8e9FWmSgQhBBXE3gCxQlpiuQfpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vasil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
