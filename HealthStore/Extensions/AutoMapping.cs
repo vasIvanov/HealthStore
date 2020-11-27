@@ -28,7 +28,7 @@ namespace HealthStore.Extensions
             CreateMap<IEnumerable<DietResponse>, IEnumerable<Diet>>();
 
             CreateMap<SupplementsRequest, Supplement>().ReverseMap();
-            CreateMap<SupplementsResponse, Diet>().ReverseMap();
+            CreateMap<SupplementsResponse, Supplement>().ReverseMap();
             CreateMap<IEnumerable<SupplementsResponse>, IEnumerable<Supplement>>();
         }
     }

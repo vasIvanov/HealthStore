@@ -44,7 +44,7 @@ namespace HealthStore.BL.Services.Users
             return await _employeeRepository.GetAll();
         }
 
-        public async Task<Employee> GetUserById(int id)
+        public async Task<Employee> GetEmployeeById(int id)
         {
             return await _employeeRepository.GetById(id);
         }

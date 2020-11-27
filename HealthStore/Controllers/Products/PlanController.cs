@@ -55,7 +55,7 @@ namespace HealthStore.Controllers.Products
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdatePlan([FromBody] PlanRequest request)
+        public async Task<IActionResult> UpdatePlan([FromBody] Plan request)
         {
             if (request == null) return NotFound();
             var plan = _mapper.Map<Plan>(request);

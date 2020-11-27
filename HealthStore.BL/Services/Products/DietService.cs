@@ -51,7 +51,7 @@ namespace HealthStore.BL.Services.Products
 
             if (planIdExists.Result != null && idExists.Result != null)
             {
-                if(uniqueName.Result.Id == diet.Id || uniqueName.Result == null)
+                if((uniqueName.Result != null && uniqueName.Result.Id == diet.Id) || uniqueName.Result == null)
                 {
                     return await _dietRepository.Update(diet);
                 }

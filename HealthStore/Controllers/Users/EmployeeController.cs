@@ -48,7 +48,7 @@ namespace HealthStore.Controllers.Users
         {
             if (id <= 0) return BadRequest();
 
-            var employee = await _employeeService.GetUserById(id);
+            var employee = await _employeeService.GetEmployeeById(id);
             if (employee == null) return NotFound();
             await _employeeService.Delete(id);
             return Ok();
@@ -61,6 +61,17 @@ namespace HealthStore.Controllers.Users
             var employee = _mapper.Map<Employee>(request);
             var result = await _employeeService.Update(employee);
             if (result == null) return NotFound();
+            return Ok(employee);
+        }
+
+        [HttpGet("id")]
+        public async Task<IActionResult> GetEmployeeById(int employeeId)
+        {
+            var result = await _employeeService.GetEmployeeById(employeeId);
+            if (result == null) return NotFound("Employee not found");
+
+            var employee = _mapper.Map<Employee>(result);
+
             return Ok(employee);
         }
     }

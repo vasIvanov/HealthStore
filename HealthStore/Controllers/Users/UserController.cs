@@ -63,5 +63,16 @@ namespace HealthStore.Controllers.Users
             if (result == null) return NotFound();
             return Ok(user);
         }
+
+        [HttpGet("id")]
+        public async Task<IActionResult> GetUserById(int userId)
+        {
+            var result = await _userService.GetUserById(userId);
+            if (result == null) return NotFound("Specialty not found");
+
+            var specialty = _mapper.Map<User>(result);
+
+            return Ok(specialty);
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace HealthStore.BL.Interfaces.Users
 {
     public interface IEmployeeService
     {
-        Task<Employee> GetUserById(int id);
+        Task<Employee> GetEmployeeById(int id);
         Task<Employee> GetUserByName(string name);
         Task<Employee> Create(Employee employee);
         Task<IEnumerable<Employee>> GetAll();

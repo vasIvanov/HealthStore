@@ -43,6 +43,9 @@ namespace HealthStore
             services.AddSingleton<IDietService, DietService>();
             services.AddSingleton<IDietRepository, DietRepository>();
 
+            services.AddSingleton<ISupplementService, SupplementService>();
+            services.AddSingleton<ISupplementRepository, SupplementRepository>();
+
             services.AddAutoMapper(typeof(Startup));
 
             services.AddSingleton(Log.Logger);
