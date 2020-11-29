@@ -132,3 +132,17 @@ C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\obj\Debug\netcoreapp
 C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\obj\Debug\netcoreapp3.1\HealthStore.dll
 C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\obj\Debug\netcoreapp3.1\HealthStore.pdb
 C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\obj\Debug\netcoreapp3.1\HealthStore.genruntimeconfig.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\AspNetCore.Identity.MongoDbCore.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\MongoDbGenericRepository.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
