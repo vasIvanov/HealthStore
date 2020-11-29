@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj": {}
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj": {
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
         "projectName": "HealthStore.BL",
-        "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
+        "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
         "packagesPath": "C:\\Users\\Vasil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\obj\\",
+        "outputPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,12 +26,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj": {
-                "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj"
+              "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj": {
+                "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj"
               },
-              "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
-                "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj"
+              "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
+                "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj"
               }
             }
           }
@@ -44,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -69,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj": {
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj",
+        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj",
         "projectName": "HealthStore.DL",
-        "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj",
+        "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\HealthStore.DL.csproj",
         "packagesPath": "C:\\Users\\Vasil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.DL\\obj\\",
+        "outputPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.DL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,9 +97,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
-                "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj"
+              "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
+                "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj"
               }
             }
           }
@@ -110,6 +113,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -139,18 +143,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
         "projectName": "HealthStore.Models",
-        "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
+        "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
         "packagesPath": "C:\\Users\\Vasil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\obj\\",
+        "outputPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,6 +169,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -176,6 +181,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -201,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

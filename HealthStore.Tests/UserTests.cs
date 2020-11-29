@@ -53,9 +53,9 @@ namespace HealthStore.Tests
             var okObjectResult = result as OkObjectResult;
             Assert.NotNull(okObjectResult);
 
-            var specialties = okObjectResult.Value as IEnumerable<UserResponse>;
-            Assert.NotNull(specialties);
-            Assert.Equal(expectedCount, specialties.Count());
+            var user = okObjectResult.Value as IEnumerable<UserResponse>;
+            Assert.NotNull(user);
+            Assert.Equal(expectedCount, user.Count());
         }
 
         [Fact]

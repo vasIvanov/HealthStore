@@ -7,3 +7,12 @@ C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.Models\obj\Debug\net
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.pdb
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.csprojAssemblyReference.cache
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.csproj.CoreCompileInputs.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\bin\Debug\netcoreapp3.1\HealthStore.Models.deps.json
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\bin\Debug\netcoreapp3.1\HealthStore.Models.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\bin\Debug\netcoreapp3.1\HealthStore.Models.pdb
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.csprojAssemblyReference.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.AssemblyInfoInputs.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.AssemblyInfo.cs
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.csproj.CoreCompileInputs.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.Models\obj\Debug\netcoreapp3.1\HealthStore.Models.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {}
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
+    "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
         "projectName": "HealthStore.Models",
-        "projectPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
+        "projectPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\HealthStore.Models.csproj",
         "packagesPath": "C:\\Users\\Vasil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Models\\obj\\",
+        "outputPath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

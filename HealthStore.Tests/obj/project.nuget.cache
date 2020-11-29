@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zAh8mppWgcvzLsZGdNLBdoCL80/tTUnRbXg+FGNDuFA54VUerzFubcKu0YqsYhJx1r+T1fuF3mhcTD1xz0RS+A==",
+  "dgSpecHash": "Vl4A4r0eQ27mGwsKIhSCFzE8bg5BQMAS0gtx98LeaDlZq/lfbviFRnPVHdBYnGU+yDSJj8suCq6GuU0pudvfwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.Tests\\HealthStore.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.Tests\\HealthStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasil\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -12,6 +12,7 @@
     "C:\\Users\\Vasil\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
+    "C:\\Users\\Vasil\\.nuget\\packages\\microsoft.aspnetcore.testhost\\3.1.10\\microsoft.aspnetcore.testhost.3.1.10.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
@@ -98,6 +99,7 @@
     "C:\\Users\\Vasil\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Vasil\\.nuget\\packages\\system.io.pipelines\\4.7.3\\system.io.pipelines.4.7.3.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",

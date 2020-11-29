@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "26zhsW4X2Y2v0fTmUgDXAgO4h8DH1TRQhahi9W5E6WtgSa1KeSTSgi7gFI7hNyFeT028yv0bYouyw6YpPgdIuw==",
+  "dgSpecHash": "5DvRBu8SKhSn2gjxYuAOhbIOos4JdkeguQ1YBhQAl3BN6jGxTmXSz87NwGk8Eujb5+AnzRzIlB1DYohhK1MCNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vasil\\Desktop\\GItHub repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
+  "projectFilePath": "C:\\Users\\Vasil\\Desktop\\GitHub-Repos\\HealthStore\\HealthStore.BL\\HealthStore.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasil\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Vasil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

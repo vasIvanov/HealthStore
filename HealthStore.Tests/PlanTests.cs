@@ -4,15 +4,12 @@ using HealthStore.BL.Services.Products;
 using HealthStore.Controllers.Products;
 using HealthStore.DL.Interfaces.Products;
 using HealthStore.Extensions;
-using HealthStore.Models.Contracts.Requests;
 using HealthStore.Models.Contracts.Responses;
 using HealthStore.Models.Products;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -50,6 +47,9 @@ namespace HealthStore.Tests
             plan.Name = expectedPlanName;
 
             _planRepository.Setup(x => x.Update(plan)).ReturnsAsync(_plans.FirstOrDefault(x => x.Id == planId));
+            _planRepository.Setup(x => x.GetByName(plan.Name));
+            _planRepository.Setup(x => x.GetById(plan.Id)).ReturnsAsync(plan);
+
 
             //Act
             var result = await _controller.UpdatePlan(plan);
@@ -58,9 +58,9 @@ namespace HealthStore.Tests
             var okObjectResult = result as OkObjectResult;
             Assert.NotNull(okObjectResult);
 
-            var pos = okObjectResult.Value as Plan;
-            Assert.NotNull(pos);
-            Assert.Equal(expectedPlanName, pos.Name);
+            var planResponse = okObjectResult.Value as PlanResponse;
+            Assert.NotNull(planResponse);
+            Assert.Equal(expectedPlanName, planResponse.Name);
         }
     }
 }

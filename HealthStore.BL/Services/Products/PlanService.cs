@@ -55,28 +55,28 @@ namespace HealthStore.BL.Services.Products
 
         public async Task<Plan> Update(Plan plan)
         {
-            //List<Task> tasks = new List<Task>();
-            //var idExists = _planRepository.GetById(plan.Id);
-            //tasks.Add(idExists);
-            //var uniqueName = _planRepository.GetByName(plan.Name);
-            //tasks.Add(uniqueName);
+            List<Task> tasks = new List<Task>();
+            var idExists = _planRepository.GetById(plan.Id);
+            tasks.Add(idExists);
+            var uniqueName = _planRepository.GetByName(plan.Name);
+            tasks.Add(uniqueName);
 
-            //await Task.WhenAll(tasks);
-            //if (idExists.Result != null)
-            //{
-            //    if ((uniqueName.Result != null && uniqueName.Result.Id == plan.Id) || uniqueName.Result == null)
-            //    {
-            //        return await _planRepository.Update(plan);
-            //    }
-            //    else
-            //    {
-            //        throw new Exception();
-            //    }
-            //}
-            //else
-            //{
-            //    throw new Exception();
-            //}
+            await Task.WhenAll(tasks);
+            if (idExists.Result != null)
+            {
+                if ((uniqueName.Result != null && uniqueName.Result.Id == plan.Id) || uniqueName.Result == null)
+                {
+                    return await _planRepository.Update(plan);
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+            else
+            {
+                throw new Exception();
+            }
             return await _planRepository.Update(plan);
         }
     }

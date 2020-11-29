@@ -1,7 +1,5 @@
 ﻿using HealthStore.Models.Products;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace HealthStore.BL.Interfaces.Products

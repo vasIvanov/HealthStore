@@ -12,3 +12,17 @@ C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.BL\obj\Debug\netcore
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.csproj.CopyComplete
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.dll
 C:\Users\Vasil\Desktop\GItHub repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.pdb
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.BL.deps.json
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.BL.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.BL.pdb
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.DL.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.Models.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.DL.pdb
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\bin\Debug\netcoreapp3.1\HealthStore.Models.pdb
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.csprojAssemblyReference.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.AssemblyInfoInputs.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.AssemblyInfo.cs
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.csproj.CoreCompileInputs.cache
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.csproj.CopyComplete
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.dll
+C:\Users\Vasil\Desktop\GitHub-Repos\HealthStore\HealthStore.BL\obj\Debug\netcoreapp3.1\HealthStore.BL.pdb

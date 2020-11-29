@@ -61,7 +61,7 @@ namespace HealthStore.Controllers.Products
             var plan = _mapper.Map<Plan>(request);
             var result = await _planService.Update(plan);
             if (result == null) return NotFound();
-            return Ok(plan);
+            return Ok(_mapper.Map<PlanResponse>(plan));
         }
     }
 }
