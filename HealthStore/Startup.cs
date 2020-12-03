@@ -1,7 +1,9 @@
 using AutoMapper;
 using FluentValidation.AspNetCore;
+using HealthStore.BL.Interfaces;
 using HealthStore.BL.Interfaces.Products;
 using HealthStore.BL.Interfaces.Users;
+using HealthStore.BL.Services;
 using HealthStore.BL.Services.Products;
 using HealthStore.BL.Services.Users;
 using HealthStore.DL.Interfaces.Products;
@@ -46,6 +48,8 @@ namespace HealthStore
 
             var mongoSettings = Configuration.GetSection(nameof(MongoDbConfiguration)).Get<MongoDbConfiguration>();
 
+            services.AddScoped<IIdentityService, IdentityService>();
+
             services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>(mongoSettings.ConnectionString, mongoSettings.DatabaseName)
                 .AddSignInManager()
@@ -69,6 +73,7 @@ namespace HealthStore
             services.AddAutoMapper(typeof(Startup));
 
             services.AddSingleton(Log.Logger);
+
             services.AddAuthentication(op =>
             {
                 op.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -85,33 +90,37 @@ namespace HealthStore
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.Secret)),
                         ValidateIssuer = false,
                         RequireExpirationTime = false,
-                        ValidateLifetime = true
+                        ValidateLifetime = true,
+                        ValidateAudience = false
                     };
                 });
+
             services.AddControllers()
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>()); 
             services.AddHealthChecks();
             services.AddSwaggerGen(x =>
             {
-                var sercurity = new Dictionary<string, IEnumerable<string>>
+                var jwtSecurityScheme = new OpenApiSecurityScheme
                 {
-                    {"Bearer", new string[0] }
-                };
-
-                OpenApiSecurityScheme secutiryDefinition = new OpenApiSecurityScheme()
-                {
-                    Name = "Bearer",
-                    BearerFormat = "JWT",
                     Scheme = "bearer",
+                    BearerFormat = "JWT",
+                    Name = "JWT Authentication",
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.Http,
-                    Description = "Authorization token"
+                    Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
+
+                    Reference = new OpenApiReference
+                    {
+                        Id = JwtBearerDefaults.AuthenticationScheme,
+                        Type = ReferenceType.SecurityScheme
+                    }
                 };
 
-                x.AddSecurityDefinition("jwt", secutiryDefinition);
-                x.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                x.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+
+                x.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
-                    {secutiryDefinition, new string[] {} }
+                    { jwtSecurityScheme, Array.Empty<string>() }
                 });
 
             });
@@ -134,6 +143,7 @@ namespace HealthStore
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
