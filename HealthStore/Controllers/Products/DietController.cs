@@ -3,12 +3,15 @@ using HealthStore.BL.Interfaces.Products;
 using HealthStore.Models.Contracts.Requests;
 using HealthStore.Models.Contracts.Responses;
 using HealthStore.Models.Products;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace HealthStore.Controllers.Products
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
     public class DietController : ControllerBase
