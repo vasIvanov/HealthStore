@@ -14,5 +14,6 @@ namespace HealthStore.BL.Interfaces.Products
         Task<IEnumerable<Diet>> GetAll();
         Task Delete(int id);
         Task<Diet> Update(Diet diet);
+        Task<Diet> UpdateDiet(string description, int suitablePlanId, int dietId);
     }
 }

@@ -84,5 +84,23 @@ namespace HealthStore.BL.Services.Products
                 throw new Exception();
             }
         }
+
+        public async Task<Supplement> UpdateSupplement(string description, int price, int supplementId, int suitableDietId)
+        {
+            var supplement = await _supplementRepository.GetById(supplementId);
+            var validDietId = await _dietRepository.GetById(suitableDietId) != null;
+            if (supplement != null)
+            {
+                supplement.Price = price;
+                supplement.Description = description;
+            }
+            if (validDietId)
+            {
+                supplement.SuitableDietId = suitableDietId;
+            }
+
+            var result = await _supplementRepository.Update(supplement);
+            return result;
+        }
     }
 }

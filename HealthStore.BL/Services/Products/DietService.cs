@@ -88,5 +88,19 @@ namespace HealthStore.BL.Services.Products
                 throw new Exception();
             }
         }
+
+        public async Task<Diet> UpdateDiet(string description, int suitablePlanId, int dietId)
+        {
+            var validPlanId = await _planRepository.GetById(suitablePlanId) != null;
+            var diet = await _dietRepository.GetById(dietId);
+            if(diet != null && validPlanId)
+            {
+                diet.Description = description;
+                diet.SuitablePlanId = suitablePlanId;
+            }
+
+            var result = await _dietRepository.Update(diet);
+            return result;
+        }
     }
 }

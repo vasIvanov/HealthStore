@@ -79,5 +79,17 @@ namespace HealthStore.BL.Services.Users
                 throw new Exception();
             }
         }
+
+        public async Task<Employee> UpdateEmployeeSalary(int employeeId, double salary)
+        {
+            var employee = await _employeeRepository.GetById(employeeId);
+            if(employee != null)
+            {
+                employee.Salary = salary;
+            }
+
+            var result = await _employeeRepository.Update(employee);
+            return result;
+        }
     }
 }

@@ -14,6 +14,7 @@ namespace HealthStore.BL.Interfaces.Users
         Task<IEnumerable<User>> GetAll();
         Task Delete(int id);
         Task<User> Update(User user);
+        Task<User> UpdateUserName(int userId, string name);
 
     }
 }

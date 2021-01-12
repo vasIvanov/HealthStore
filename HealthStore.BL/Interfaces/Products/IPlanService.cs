@@ -12,5 +12,6 @@ namespace HealthStore.BL.Interfaces.Products
         Task<IEnumerable<Plan>> GetAll();
         Task Delete(int id);
         Task<Plan> Update(Plan plan);
+        Task<Plan> UpdatePlan(int price, int planId);
     }
 }

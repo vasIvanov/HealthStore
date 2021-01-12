@@ -71,5 +71,18 @@ namespace HealthStore.BL.Services.Users
                 throw new Exception();
             }
         }
+
+        public async Task<User> UpdateUserName(int userId, string name)
+        {
+            var user = await _userRepository.GetById(userId);
+            var validName = await _userRepository.GetByName(name) == null;
+            if(user != null && validName)
+            {
+                user.Name = name;
+            }
+
+            var result = await _userRepository.Update(user);
+            return result;
+        }
     }
 }

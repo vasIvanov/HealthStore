@@ -34,6 +34,7 @@ namespace HealthStore.Controllers.Products
             return Ok(plan);
         }
 
+        [Authorize(Policy = "ViewDiets")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

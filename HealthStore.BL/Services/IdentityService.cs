@@ -96,6 +96,7 @@ namespace HealthStore.BL.Services
 					new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
 					new Claim(JwtRegisteredClaimNames.Email, user.Email),
 					new Claim("id", user.Id.ToString()),
+					new Claim("View", "View")
 				}),
 				Expires = DateTime.UtcNow.AddHours(1),
 				SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)

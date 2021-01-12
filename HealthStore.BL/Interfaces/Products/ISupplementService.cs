@@ -14,5 +14,6 @@ namespace HealthStore.BL.Interfaces.Products
         Task<IEnumerable<Supplement>> GetAll();
         Task Delete(int id);
         Task<Supplement> Update(Supplement supplement);
+        Task<Supplement> UpdateSupplement(string description, int price, int supplementId, int suitableDietId);
     }
 }

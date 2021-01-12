@@ -72,12 +72,24 @@ namespace HealthStore.BL.Services.Products
                 {
                     throw new Exception();
                 }
+
             }
             else
             {
                 throw new Exception();
             }
-            return await _planRepository.Update(plan);
+        }
+
+        public async Task<Plan> UpdatePlan(int price, int planId)
+        {
+            var plan = await _planRepository.GetById(planId);
+            if (plan != null)
+            {
+                plan.Price = price;
+            }
+
+            var result = await _planRepository.Update(plan);
+            return result;
         }
     }
 }

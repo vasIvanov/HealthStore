@@ -95,6 +95,11 @@ namespace HealthStore
                     };
                 });
 
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ViewDiets", p => p.RequireAuthenticatedUser().RequireClaim("View"));
+            });
+
             services.AddControllers()
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>()); 
             services.AddHealthChecks();
